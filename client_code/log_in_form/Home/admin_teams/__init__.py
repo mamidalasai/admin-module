@@ -51,6 +51,7 @@ class admin_teams(admin_teamsTemplate):
         alert("email already exist")
       else:
         anvil.server.call('teams', name, email, number, joining_date, role, permission)
+        open_form('log_in_form.Home.admin_teams.view_profile')
 
    
   def link_1_click(self, **event_args):

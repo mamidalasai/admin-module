@@ -44,9 +44,11 @@ class view_profile(view_profileTemplate):
 
   def button_2_click(self, **event_args):
     """This method is called when the button is clicked"""
+    open_form('log_in_form.Home.admin_teams.view_profile.edit_form')
 
   def button_3_click(self, **event_args):
     """This method is called when the button is clicked"""
+    open_form('log_in_form.Home.admin_teams.view_profile.update_form')
 
   def button_4_click(self, **event_args):
     """This method is called when the button is clicked"""
